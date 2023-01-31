@@ -1,0 +1,48 @@
+body {
+   padding: 100px;
+   font-size: 16pt;
+   background-color: rgb(200, 220, 210);
+}
+
+h1 {
+    padding: 20px 0px;
+    color: rgb(130, 55, 30);
+    font-size: 40pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    padding: 20 px 0 px;
+    color: rgb(185, 95, 55);
+    font-size: 28pt;
+}
+
+p {
+    font-size: 20pt;
+}
+
+img {
+    width: 30%;
+    padding: 10px;
+    margin: 20px 0px;
+    border: groove rgb(130, 55, 30) 5px;
+}
+
+li {
+ display: inline-block;
+ padding: 10px;
+ margin: 5px;
+}
+
+.active {
+    color: red;
+}
+
+.skip {
+    position: absolute;
+    left: -1000px;
+}
+
+.skip:focus {
+    left: 0px;
+}
